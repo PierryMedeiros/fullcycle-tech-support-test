@@ -14,6 +14,10 @@ const config = {
 const mysql = require('mysql')
 const connection = mysql.createConnection(config)
 
+connection.query('CREATE TABLE IF NOT EXISTS people (name VARCHAR(50))', function (error, results, fields) {
+  if (error) throw error;
+  // Tabela 'people' está pronta para ser usada.
+});
 
 const insert = sqlInsert(connection)
 
