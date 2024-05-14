@@ -6,7 +6,8 @@ Segue a lista do que fiz para resolver esse desafio
 2.	Troquei a versão do MySQL para a 5.7 para suportar a biblioteca JS ‘MYSQl’ como cliente
 3.	Adicionei uma porta de exposição ao container do db
 4.	Modifique o comando test: [] no healthcheck do container db
-5.	Adicionado Script para criar tabela People antes de inserir os dados
+5.	Adicionado Script no index.js para criar tabela People antes de inserir os dados
+
 
 ### Desafio Node.js + MySQL
 
